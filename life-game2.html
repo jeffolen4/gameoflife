@@ -8,7 +8,21 @@
     <title>Game of Life</title>
   </head>
   <body>
-    <canvas id="life-canvas" width="400" height="400" style="border: 1px solid red">
-    </canvas>
+    <div class="container">
+      <div class="row col-sm-offset-4 col-sm-4">
+        <h3>Game of Life</h3>
+        <canvas id="life-canvas" width="400" height="400" style="border: 1px solid red">
+        </canvas>
+      </div>
+      <div class="row col-sm-offset-4 col-sm-4">
+        <div class='btn-group'>
+          <button type="button" class="btn btn-primary" id="start">Start</button>
+          <button type="button" class="btn btn-primary" id="default">Default</button>
+          <button type="button" class="btn btn-primary" id="reset">Reset Last</button>
+          <button type="button" class="btn btn-primary" id="clear">Clear</button>
+          <button type="button" class="btn btn-primary" id="stop">Stop</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
